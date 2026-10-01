@@ -1,13 +1,13 @@
-s = "pythonprogrammming" 
-# travarce <--------------- this side
-print(s[-6:-1:-1])
-print(s[-6:-1:])
-print(s[::-2])
-print(s[::-1])
-print(s[-2:])
-print(s[2:-2]) #2:-2
-print(s[1:-2:2])
-print(s[-2:-12:-2])
+# s = "pythonprogrammming" 
+# # travarce <--------------- this side
+# print(s[-6:-1:-1])
+# print(s[-6:-1:])
+# print(s[::-2])
+# print(s[::-1])
+# print(s[-2:])
+# print(s[2:-2]) #2:-2
+# print(s[1:-2:2])
+# print(s[-2:-12:-2])
 # print(s[])
 # print(s[])
 # print(s[])
