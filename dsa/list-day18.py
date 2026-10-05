@@ -45,3 +45,4 @@ c = num.count (20)
 print(c)
 idx = num.index(20)
 print (idx)
+#anumaret methood
