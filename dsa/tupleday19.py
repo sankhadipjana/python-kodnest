@@ -1,5 +1,4 @@
-from _typeshed import importlib
-from _typeshed import importlib
+
 mytuple = (1, 2, 3, 4, 3, 3, 3)
 print(mytuple[0:3])
 print(mytuple.count (3))
