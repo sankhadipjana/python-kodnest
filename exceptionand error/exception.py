@@ -28,7 +28,7 @@
 # ZeroDivisionError
 try:
     a = 10
-    c = 6 / 0
+    c = 6 / 3
     print(c)
 except ZeroDivisionError:
     print("Cannot divide by zero.")
@@ -49,7 +49,7 @@ except IndexError:
 
 # NameError
 try:
-    print(age)
+    print('age')
 except NameError:
     print("Variable is not declared before use.")
 
