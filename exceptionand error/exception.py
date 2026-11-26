@@ -62,6 +62,8 @@ except TypeError:
     print("Cannot add an integer and a string directly.")
 
 # ValueError
+
+
 try:
     num = int("hello")
     print(num)
