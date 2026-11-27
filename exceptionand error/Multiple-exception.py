@@ -60,10 +60,19 @@ try:
     print("Converted integer:", value)
 except ValueError:
     print("Invalid input! Please enter a valid integer.")
-    
+
 # 2. Safe Division Calculator
 # Read two numbers and perform division. Handle ValueError for invalid input and ZeroDivisionError when the second number is zero.
 
+try:
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    result = num1 / num2
+    print("Result:", result)
+except ValueError:
+    print("Invalid input! Please enter valid numbers.")
+except ZeroDivisionError:
+    print("Cannot divide by zero! The second number must not be zero.")
 # 3. Student Skill Lookup
 # Given a list of skills:
 # skills = ["Python", "SQL", "Java", "HTML"]
